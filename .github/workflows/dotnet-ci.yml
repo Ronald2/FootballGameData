@@ -18,7 +18,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore; dotnet build FootballGameData.sln --configuration Release --no-restore
     - name: Test with coverage
-      run: dotnet test FootballGameData.sln --no-build --verbosity normal --collect:"XPlat Code Coverage"
+      run: dotnet test FootballGameData.sln --verbosity normal --collect:"XPlat Code Coverage"
     - name: Report coverage
       if: success()
       uses: danielpalme/ReportGenerator-GitHub-Action@5.2.4
