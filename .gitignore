@@ -16,3 +16,4 @@ coverage*.json
 coverage*.xml
 # Others
 *.log
+coveragereport/
