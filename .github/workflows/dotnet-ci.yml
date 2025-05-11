@@ -19,7 +19,7 @@ jobs:
         run: dotnet restore; dotnet build FootballGameData.sln --configuration Release --no-restore
       - name: Test with coverage
         run: dotnet test FootballGameData.sln --verbosity normal --collect:"XPlat Code Coverage"
-      - name: Debug: List all files recursively
+      - name: "Debug: List all files recursively"
         run: |
           echo "Listing all files recursively:"
           Get-ChildItem -Recurse -File | Select-Object FullName
