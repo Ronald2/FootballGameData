@@ -1,11 +1,9 @@
-using System.Threading.Tasks;
 using AutoMapper;
 using Football.Application.DTOs;
 using Football.Application.Services;
 using Football.Domain.Entities;
 using Football.Domain.Interfaces;
 using Moq;
-using Xunit;
 
 namespace Football.Tests.Services
 {

@@ -31,7 +31,7 @@ jobs:
         if: success()
         uses: danielpalme/ReportGenerator-GitHub-Action@5.2.4
         with:
-          reports: 'Football.Test/TestResults/**/*.cobertura.xml'
+          reports: 'Football.Test\TestResults\**\coverage.cobertura.xml'
           targetdir: 'coveragereport'
           reporttypes: 'Html;SummaryXml'
       - name: Upload coverage report artifact

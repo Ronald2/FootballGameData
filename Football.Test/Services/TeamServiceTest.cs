@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using AutoMapper;
 using Football.Application.DTOs;
 using Football.Application.Services;
@@ -8,7 +5,6 @@ using Football.Domain.Entities;
 using Football.Domain.Interfaces;
 using Microsoft.Extensions.Options;
 using Moq;
-using Xunit;
 
 namespace Football.Test.Services
 {

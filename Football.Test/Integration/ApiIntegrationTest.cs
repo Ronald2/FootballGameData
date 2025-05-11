@@ -3,10 +3,8 @@ using Football.Application.DTOs;
 using Football.Application.Mapping;
 using Football.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Mvc.Testing;
-using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Xunit;
 
 namespace Football.Tests.Integration
 {
