@@ -1,0 +1,6 @@
+@Football.API_HostAddress = https://localhost:5286
+
+GET {{Football.API_HostAddress}}/teams/
+Accept: application/json
+
+###

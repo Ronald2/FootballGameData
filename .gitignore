@@ -1,0 +1,18 @@
+# .NET Core
+**/bin/
+**/obj/
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+# VS Code
+.vscode/
+# Test results
+TestResults/
+# Coverage
+coverage/
+coverage*.json
+coverage*.xml
+# Others
+*.log
