@@ -1,5 +1,8 @@
 # Football Game Data API
 
+[![Build Status](https://github.com/Ronald2/FootballGameData/actions/workflows/dotnet-ci.yml/badge.svg)](https://github.com/Ronald2/FootballGameData/actions)
+[![Cobertura de código](https://img.shields.io/badge/dynamic/xml?color=brightgreen&label=coverage&query=//coverage/line-rate&url=https://raw.githubusercontent.com/Ronald2/FootballGameData/gh-pages/coverage-summary.xml)](https://github.com/Ronald2/FootballGameData/tree/gh-pages)
+
 API profesional para la gestión y exportación de datos de partidos de fútbol, diseñada para integrarse fácilmente con vMix Data Sources Manager y otros sistemas de automatización de gráficos.
 
 ## Contexto y objetivo
@@ -96,8 +99,8 @@ MIT
 
 # Cobertura de código
 
-![Cobertura de código](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=percent&url=https://raw.githubusercontent.com/${{ github.repository }}/gh-pages/coverage-summary.json)
+![Cobertura de código](https://img.shields.io/badge/dynamic/xml?color=brightgreen&label=coverage&query=//coverage/line-rate&url=https://raw.githubusercontent.com/Ronald2/FootballGameData/gh-pages/coverage-summary.xml)
 
 Este badge muestra la cobertura de código generada automáticamente por el pipeline de CI.
 
-> Para actualizar el badge, asegúrate de que el workflow suba el archivo coverage-summary.json a la rama gh-pages o a un endpoint público.
+> Para actualizar el badge, asegúrate de que el workflow suba el archivo coverage-summary.xml a la rama gh-pages o a un endpoint público.
