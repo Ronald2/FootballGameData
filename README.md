@@ -96,6 +96,6 @@ MIT
 
 # Cobertura de código
 
-![Cobertura de código](https://img.shields.io/badge/dynamic/xml?color=brightgreen&label=coverage&query=//coverage/line-rate&url=https://raw.githubusercontent.com/Ronald2/FootballGameData/main/coverage-summary.xml)
+![Cobertura de código](https://img.shields.io/badge/dynamic/xml?color=brightgreen&label=coverage&query=//coverage/line-rate&url=https://raw.githubusercontent.com/Ronald2/FootballGameData/gh-pages/coverage-summary.xml)
 
 Este badge muestra la cobertura de código generada automáticamente por el pipeline de CI.
