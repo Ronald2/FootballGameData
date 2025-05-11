@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>5/11/2025 - 3:06:07 AM</Generatedon>
+    <Parser>Cobertura</Parser>
+    <Assemblies>4</Assemblies>
+    <Classes>42</Classes>
+    <Files>43</Files>
+    <Coveredlines>470</Coveredlines>
+    <Uncoveredlines>1128</Uncoveredlines>
+    <Coverablelines>1598</Coverablelines>
+    <Totallines>2798</Totallines>
+    <Linecoverage>29.4</Linecoverage>
+    <Coveredbranches>73</Coveredbranches>
+    <Totalbranches>140</Totalbranches>
+    <Branchcoverage>52.1</Branchcoverage>
+    <Coveredmethods>111</Coveredmethods>
+    <Totalmethods>197</Totalmethods>
+    <Methodcoverage>56.3</Methodcoverage>
+    <Tag>17_14951656308</Tag>
+  </Summary>
+  <Coverage>
+    <Assembly name="Football.API" classes="9" coverage="23.8" coveredlines="66" coverablelines="277" totallines="693" branchcoverage="8.3" coveredbranches="3" totalbranches="36" coveredmethods="9" totalmethods="44" methodcoverage="20.4">
+      <Class name="Football.API.Controllers.GamesController" coverage="0" coveredlines="0" coverablelines="41" totallines="109" branchcoverage="0" coveredbranches="0" totalbranches="4" coveredmethods="0" totalmethods="8" methodcoverage="0" />
+      <Class name="Football.API.Controllers.LineUpsController" coverage="0" coveredlines="0" coverablelines="41" totallines="112" branchcoverage="0" coveredbranches="0" totalbranches="4" coveredmethods="0" totalmethods="8" methodcoverage="0" />
+      <Class name="Football.API.Controllers.PlayersController" coverage="0" coveredlines="0" coverablelines="41" totallines="115" branchcoverage="0" coveredbranches="0" totalbranches="4" coveredmethods="0" totalmethods="8" methodcoverage="0" />
+      <Class name="Football.API.Controllers.TeamsController" coverage="41.4" coveredlines="17" coverablelines="41" totallines="113" branchcoverage="25" coveredbranches="1" totalbranches="4" coveredmethods="4" totalmethods="8" methodcoverage="50" />
+      <Class name="Football.API.Controllers.WeatherController" coverage="0" coveredlines="0" coverablelines="35" totallines="87" branchcoverage="0" coveredbranches="0" totalbranches="6" coveredmethods="0" totalmethods="6" methodcoverage="0" />
+      <Class name="Football.API.Extensions.FluentValidationExtensions" coverage="100" coveredlines="6" coverablelines="6" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="Football.API.Extensions.ServiceCollectionExtensions" coverage="100" coveredlines="13" coverablelines="13" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="Football.API.Middleware.ErrorHandlingMiddleware" coverage="25.6" coveredlines="10" coverablelines="39" totallines="66" branchcoverage="0" coveredbranches="0" totalbranches="12" coveredmethods="2" totalmethods="3" methodcoverage="66.6" />
+      <Class name="Program" coverage="100" coveredlines="20" coverablelines="20" totallines="49" branchcoverage="100" coveredbranches="2" totalbranches="2" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+    </Assembly>
+    <Assembly name="Football.Application" classes="15" coverage="87.7" coveredlines="295" coverablelines="336" totallines="716" branchcoverage="83.7" coveredbranches="62" totalbranches="74" coveredmethods="57" totalmethods="66" methodcoverage="86.3">
+      <Class name="Football.Application.DTOs.GameDto" coverage="66.6" coveredlines="4" coverablelines="6" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="6" methodcoverage="66.6" />
+      <Class name="Football.Application.DTOs.LineUpDto" coverage="66.6" coveredlines="4" coverablelines="6" totallines="14" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="6" methodcoverage="66.6" />
+      <Class name="Football.Application.DTOs.PagedResultDto`1" coverage="100" coveredlines="4" coverablelines="4" totallines="10" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="Football.Application.DTOs.PaginationOptions" coverage="100" coveredlines="3" coverablelines="3" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="Football.Application.DTOs.PlayerDto" coverage="80" coveredlines="4" coverablelines="5" totallines="14" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="5" methodcoverage="80" />
+      <Class name="Football.Application.DTOs.TeamDto" coverage="100" coveredlines="5" coverablelines="5" totallines="11" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
+      <Class name="Football.Application.DTOs.WeatherDto" coverage="100" coveredlines="5" coverablelines="5" totallines="11" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
+      <Class name="Football.Application.Mapping.MappingProfile" coverage="100" coveredlines="27" coverablelines="27" totallines="48" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="Football.Application.Services.GameService" coverage="92.5" coveredlines="50" coverablelines="54" totallines="120" branchcoverage="93.7" coveredbranches="15" totalbranches="16" coveredmethods="6" totalmethods="7" methodcoverage="85.7" />
+      <Class name="Football.Application.Services.LineUpService" coverage="94.9" coveredlines="56" coverablelines="59" totallines="122" branchcoverage="81.8" coveredbranches="18" totalbranches="22" coveredmethods="6" totalmethods="6" methodcoverage="100" />
+      <Class name="Football.Application.Services.PlayerService" coverage="100" coveredlines="56" coverablelines="56" totallines="117" branchcoverage="93.7" coveredbranches="15" totalbranches="16" coveredmethods="6" totalmethods="6" methodcoverage="100" />
+      <Class name="Football.Application.Services.TeamService" coverage="75" coveredlines="39" coverablelines="52" totallines="113" branchcoverage="50" coveredbranches="6" totalbranches="12" coveredmethods="4" totalmethods="6" methodcoverage="66.6" />
+      <Class name="Football.Application.Services.WeatherService" coverage="100" coveredlines="27" coverablelines="27" totallines="50" branchcoverage="100" coveredbranches="8" totalbranches="8" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="Football.Application.Validators.PlayerDtoValidator" coverage="0" coveredlines="0" coverablelines="16" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="Football.Application.Validators.TeamDtoValidator" coverage="100" coveredlines="11" coverablelines="11" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+    </Assembly>
+    <Assembly name="Football.Domain" classes="6" coverage="75.6" coveredlines="28" coverablelines="37" totallines="118" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="28" totalmethods="37" methodcoverage="75.6">
+      <Class name="Football.Domain.Entities.BaseEntity" coverage="66.6" coveredlines="2" coverablelines="3" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="3" methodcoverage="66.6" />
+      <Class name="Football.Domain.Entities.Game" coverage="50" coveredlines="4" coverablelines="8" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="8" methodcoverage="50" />
+      <Class name="Football.Domain.Entities.LineUp" coverage="88.8" coveredlines="8" coverablelines="9" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="8" totalmethods="9" methodcoverage="88.8" />
+      <Class name="Football.Domain.Entities.Player" coverage="66.6" coveredlines="4" coverablelines="6" totallines="33" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="6" methodcoverage="66.6" />
+      <Class name="Football.Domain.Entities.Team" coverage="100" coveredlines="4" coverablelines="4" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="Football.Domain.Entities.Weather" coverage="85.7" coveredlines="6" coverablelines="7" totallines="14" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="6" totalmethods="7" methodcoverage="85.7" />
+    </Assembly>
+    <Assembly name="Football.Infrastructure" classes="12" coverage="8.5" coveredlines="81" coverablelines="948" totallines="1271" branchcoverage="26.6" coveredbranches="8" totalbranches="30" coveredmethods="17" totalmethods="50" methodcoverage="34">
+      <Class name="Football.Infrastructure.Migrations.FootballDbContextModelSnapshot" coverage="0" coveredlines="0" coverablelines="263" totallines="295" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="Football.Infrastructure.Migrations.InitialCreate" coverage="0" coveredlines="0" coverablelines="436" totallines="503" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
+      <Class name="Football.Infrastructure.Persistence.Configurations.GameConfiguration" coverage="100" coveredlines="10" coverablelines="10" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="Football.Infrastructure.Persistence.Configurations.LineUpConfiguration" coverage="100" coveredlines="12" coverablelines="12" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="Football.Infrastructure.Persistence.Configurations.TeamConfiguration" coverage="100" coveredlines="5" coverablelines="5" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="Football.Infrastructure.Persistence.Configurations.WeatherConfiguration" coverage="100" coveredlines="5" coverablelines="5" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="Football.Infrastructure.Persistence.FootballDbContext" coverage="92" coveredlines="23" coverablelines="25" totallines="41" branchcoverage="66.6" coveredbranches="4" totalbranches="6" coveredmethods="9" totalmethods="9" methodcoverage="100" />
+      <Class name="Football.Infrastructure.Repositories.EfGameRepository" coverage="0" coveredlines="0" coverablelines="42" totallines="76" branchcoverage="0" coveredbranches="0" totalbranches="4" coveredmethods="0" totalmethods="7" methodcoverage="0" />
+      <Class name="Football.Infrastructure.Repositories.EfLineUpRepository" coverage="0" coveredlines="0" coverablelines="43" totallines="74" branchcoverage="0" coveredbranches="0" totalbranches="4" coveredmethods="0" totalmethods="7" methodcoverage="0" />
+      <Class name="Football.Infrastructure.Repositories.EfPlayerRepository" coverage="0" coveredlines="0" coverablelines="37" totallines="68" branchcoverage="0" coveredbranches="0" totalbranches="4" coveredmethods="0" totalmethods="7" methodcoverage="0" />
+      <Class name="Football.Infrastructure.Repositories.EfTeamRepository" coverage="61.9" coveredlines="26" coverablelines="42" totallines="79" branchcoverage="50" coveredbranches="4" totalbranches="8" coveredmethods="4" totalmethods="7" methodcoverage="57.1" />
+      <Class name="Football.Infrastructure.Repositories.EfWeatherRepository" coverage="0" coveredlines="0" coverablelines="28" totallines="56" branchcoverage="0" coveredbranches="0" totalbranches="4" coveredmethods="0" totalmethods="5" methodcoverage="0" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>
