@@ -59,7 +59,7 @@ namespace Football.API.Controllers
         /// Actualiza un partido existente.
         /// </summary>
         /// <param name="id">ID del partido.</param>
-        /// <param name="gameDto">DTO del partido a actualizar.</param>
+        /// <param name="gameDto">DTO del partido que se va a actualizar.</param>
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] GameDto gameDto)
         {
